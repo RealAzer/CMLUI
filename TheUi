@@ -1,3 +1,4 @@
+
 local _, a, b = {}, {
 	{
 		1,
@@ -4524,14 +4525,14 @@ local aa = {
 		local aa, ab, ac, ad, ae = b(54)
 		return {
 			Name = "Golden",
-            Accent = Color3.fromRGB(255, 0, 0),
+            Accent = Color3.fromRGB(72, 138, 182),
 			AcrylicMain = Color3.fromRGB(30, 30, 30),
 			AcrylicBorder = Color3.fromRGB(60, 60, 60),
 			AcrylicGradient = ColorSequence.new(Color3.fromRGB(25, 25, 25), Color3.fromRGB(15, 15, 15)),
 			AcrylicNoise = 0.94,
 			TitleBarLine = Color3.fromRGB(65, 65, 65),
 			Tab = Color3.fromRGB(100, 100, 100),
-			Element = Color3.fromRGB(70, 70, 70),
+			Element = Color3.fromRGB(255,0,0),
 			ElementBorder = Color3.fromRGB(25, 25, 25),
 			InElementBorder = Color3.fromRGB(55, 55, 55),
 			ElementTransparency = 0.82,
